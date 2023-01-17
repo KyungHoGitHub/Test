@@ -74,7 +74,7 @@ treeSet : 1
 > HashSet은 equals를 기반으로 비교하기 때문에 다른 값으로 인식하여 크기가 2가 되며
 > TreeSet은 compareTo를 기반으로 객체에 대한 동치성을 비교하기 때문에 같은 값으로 인식되어 compareTo가 0을 반환하기 때문에 크기가 1이 된다
 ----
-## Comparable구성하여 구성
+## Comparable로 구성
 ```
 class Student implements Comparable<Student>{
     String studentName; // 이름
